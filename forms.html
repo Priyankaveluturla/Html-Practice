@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        .text-center{
+            text-align: center;
+            font-size: 30px;
+            color: navy;
+            font-weight: bold;
+        }
+        .form-control{
+            width: 100%;
+            height: 30px ;
+            padding: 0 10px;
+            font-size: 10px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+        .register-form{
+            width: 33%;
+            border: 1px solid blue;
+            padding: 20px;
+            border-radius: 10px;
+            margin: auto;
+            margin-top: 10px;
+
+            
+        }
+        label{
+            font-weight: 600;
+        }
+        h2{
+            margin-bottom: 10px;
+        }
+        .form-group{
+            margin-bottom: 10px;
+        }
+        .custom-button{
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form class="register-form">
+        <h2 class="text-center">Registration form</h2>
+        <div>
+            <label>Email</label>
+            <input type="email" class="form-control" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+            <label>User name</label>
+            <input type="text" class="form-control" placeholder="Enter user name">
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" class="form-control" placeholder="Enter password">
+        </div>
+        <div class="form-group">
+            <label>Date of birth</label>
+            <input type="date" class="form-control" placeholder="Enter Date of birth">
+        </div>
+        <div style="text-align: center;">
+            <button class="custom-button">Register</button>
+        </div>
+    </form>
+</body>
+</html>

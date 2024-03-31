@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            border: 1px solid red;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            color: white;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .box:hover {
+            background-color: blue;
+            height: 200px;
+            width: 200px
+        }
+
+        .input:focus {
+            border: 5px solid red;
+            outline: none;
+        }
+
+        .input[type="checkbox"]:checked {
+            outline: 5px solid red;
+        }
+        p::first-letter{
+            font-size: 30px;
+        }
+        /* p::before{
+            content:icon;
+            font-size: 30px;
+        } */
+        input::placeholder{
+            outline: 5px solid red; 
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">1</div>
+    <input type="text" placeholder="Enter text">
+    <input type="checkbox">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, 
+        dolorum officiis dicta obcaecati tempora, nostrum
+        vero aperiam voluptatem dolore sint, dolor doloribus. 
+        Inventore perspiciatis voluptatum eaque magnam consectetur
+        voluptatibus minima?</p>
+</body>
+
+</html>

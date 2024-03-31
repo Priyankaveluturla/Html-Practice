@@ -1,0 +1,28 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply margin to create space around the outermost box */
+.outermost-box {
+    margin: 20px;
+    background-color: #ec7777; /* Light Coral */
+}
+
+/* Define border to simulate a border */
+.border-box {
+    border: 5px solid #AFEEEE; /* Pale Turquoise */
+}
+
+/* Apply padding to create space around the content box */
+.padding-box {
+    padding: 20px;
+    background-color: #98FB98; /* Pale Green */
+}
+
+/* Set background color for the content box */
+.content-box {
+    background-color: #87CEEB; /* Sky Blue */
+}

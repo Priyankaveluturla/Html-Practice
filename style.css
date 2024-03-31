@@ -1,0 +1,15 @@
+.heading{
+    color: blue;
+}
+
+#sub-heading{
+    color: red;
+}
+
+p{
+    color: yellow;
+}
+
+*{
+    color: green;
+}
